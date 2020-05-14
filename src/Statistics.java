@@ -21,4 +21,24 @@ abstract class Statistics {
         }
         return counter;
     }
+
+    static double highestSalary(Employee[] employees) {
+        double maxSalary = 0;
+        for (Employee employee : employees) {
+            if (employee.getSalary() > maxSalary) {
+                maxSalary = employee.getSalary();
+            }
+        }
+        return maxSalary;
+    }
+
+    static double lowestSalary(Employee[] employees) {
+        double minSalary = employees[0].getSalary();
+        for (Employee employee : employees) {
+            if (employee.getSalary() < minSalary) {
+                minSalary = employee.getSalary();
+            }
+        }
+        return minSalary;
+    }
 }
