@@ -1,0 +1,5 @@
+średnia pensja: 5300.0
+Liczba pracowników: 4
+Liczba pracowników w IT: 2
+Liczba pracowników w Support: 1
+Liczba pracowników w Management: 1
